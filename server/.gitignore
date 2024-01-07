@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+lib/
+include/
+bin/
+lib64
+pyenv.cfg
+
+# IDE or editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.bak
+*.pydevproject
+*.pyc
+*.pyo
+*~
+*.DS_Store
+
+# Log files
+*.log
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Dependency directories
+# Add these if using a particular package manager, e.g., pipenv, poetry
+# For pip
+pip-wheel-metadata/
+pip-egg-info/
+dist/
+build/
+
+# Other project specific files or directories
+# Add any other files/directories specific to your project that shouldn't be versioned
+.env
+
