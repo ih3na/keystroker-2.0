@@ -11,7 +11,7 @@ lib/
 include/
 bin/
 lib64
-pyenv.cfg
+pyvenv.cfg
 
 # IDE or editor specific files
 .vscode/
