@@ -11,7 +11,7 @@ lib/
 include/
 bin/
 lib64
-pyenv.cfg
+pyvenv.cfg
 
 # IDE or editor specific files
 .vscode/
@@ -47,4 +47,4 @@ build/
 # Other project specific files or directories
 # Add any other files/directories specific to your project that shouldn't be versioned
 .env
-
+keyinputs.txt
