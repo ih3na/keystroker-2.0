@@ -35,6 +35,6 @@ def get_data(request: Request):
     return file_data
 
 if __name__ == "__main__":
-    
+
     # Run the server
     uvicorn.run("main:app", host="127.0.0.1", port=6500, reload=True, workers=2)

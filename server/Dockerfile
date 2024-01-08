@@ -11,10 +11,10 @@ COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
 # Copy remaining project files
-COPY . .
+COPY . /app
 
 # Expose the port your API listens on (adjust if needed)
-EXPOSE 6500
+# EXPOSE 6500
 
 # Define the command to start the API server
-CMD ["python3", "main.py"]
+CMD ["python3", "./app/main.py"]
